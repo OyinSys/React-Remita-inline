@@ -1,31 +1,38 @@
 # react-remita
 
-This is a react library for integrating the Remita payment gateway
+---
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [License](#License)
 
-## Demo
+---
+## Overview
+
+This is a React library for integrating the Remita payment gateway. This React library provides a wrapper to add Remita Payment Checkout to your React application.
 ![img](Remita_checkout.PNG "Sample Checkout Image")
-## Get Started
 
-This React library provides a wrapper to add Remita Payment Checkout to your React application
+---
 
-### Install
+## Installation
+Run the command below:
 
-npm install react-remita --save
+```npm install react-remita --save```
 
+With Yarn,
 
-or with `yarn`
+```sh yarn add react-remita```
 
-sh
-yarn add react-remita
+---
 
-
-### Usage
+## Usage
 
 This library can be integrated into any react application by using a button provided by the library
 
 ### Using the Remita button
 
-sample javascript
+#### Sample Javascript
 ````
 import "./App.css";
 import RemitaPayment from "react-remita";
@@ -111,7 +118,7 @@ export default App;
 
 ````
 
-Sample Css Styling
+#### Sample Css Styling
 ```
 body {
   margin: 0;
@@ -164,9 +171,17 @@ input {
 ```
 You can obtain your public key by signing up on [Remita](https://remita.net) as an integrator.
 
-## Deployment
+### Deployment
 
-REMEMBER TO CHANGE THE KEY WHEN DEPLOYING ON A LIVE/PRODUCTION SYSTEM AND ALSO INCLUDE THE live PROP WHEN SWITCHING TO PRODUCTION
+Remember to change the key when deploying on a live/production system and also include the live prop when switching to production.
+
+### Useful links
+Join our Slack Developer/Support channel on [slack](http://bit.ly/RemitaDevSlack)
+    
+### Support
+For all other support needs, support@remita.net
+
+---
 
 ## Contributing
 
