@@ -1,17 +1,16 @@
 # react-remita
 
-This is a react library for integrating the Remita payment gateway
+This is a react library for integrating the Remita payment gateway.
 
 ## Demo
 ![img](Remita_checkout.PNG "Sample Checkout Image")
 ## Get Started
 
-This React library provides a wrapper to add Remita Payment Checkout to your React application
+This React library provides a wrapper to add Remita Payment Checkout to your React application.
 
 ### Install
 
 npm install react-remita --save
-
 
 or with `yarn`
 
